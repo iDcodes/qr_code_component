@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.qr-page {
+    background-color: #D5E1EF;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-code-modal {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 20px;
+    width: 250px;
+}
+.qr-code-modal__img {
+    width: 250px;
+    border-radius: 10px;
+}
+.qr-code-modal__content {
+    text-align: center;
+}
+.qr-code-modal__content-title {
+    color:#233047;
+    font-size: 20px;
+    font-weight: 750;
+}
+.qr-code-modal__content-description {
+    color:#B0B2B9;
+    font-size: 14px;
+    line-height: 20px;
+}
